@@ -30,6 +30,8 @@ movie_path = r'U:\single_session\preprocessed\preprocessedMovie.h5'
 
 
 
+
+
 class App(tk.Frame):
     def __init__(self, window, movie_path,  annotation_path_pca_ica):
         self.window = window
@@ -125,8 +127,8 @@ class PCAICA():
     def get_neuron(self):
         self.counter += 1
         neuron, self.x_start, self.x_end, self.y_start, self.y_end = get_cropped_neuron(self.masks[self.counter-1])
-        print((self.x_start, self.x_end, self.y_start, self.y_end))
-        print(self.x_start)
+        #print((self.x_start, self.x_end, self.y_start, self.y_end))
+        #print(self.x_start)
         return neuron
 
     def get_cellmap(self):
