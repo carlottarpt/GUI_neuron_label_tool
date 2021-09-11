@@ -1,9 +1,11 @@
-# GUI_neuron_label_tool
+# GUI Neuron Labeling Tool
 
 This Graphical User Interface Labeling Tool was devoloped to combine extracted neuron labels from different extraction methods (PCA-ICA and CNMF-E). 
+
+# Documentation
 For a detailed documentation of the GUI Labeling Tool refer to the documentation provided in the file GUI_Documentation.pdf. 
 
-Data
+# Data
 
 For now the calcium imaging data needs to be provided both as an .h5 and .avi file. Test data is provided in the folder data and contains the following files:
 - preprocessedMovie.h5
