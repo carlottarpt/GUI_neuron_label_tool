@@ -24,6 +24,7 @@ For now the calcium imaging data needs to be provided both as an .h5 and .avi fi
     
  The tool was also used to quantify the results using a synthetic data set which is accesable as well in the subfolder data/synthetic/.
  
+ # Data Conversion
  Files used for conversion of the annotations:
  - cnmfe_get_results.m extraction file for the CNMF-E method ( https://github.com/zhoupc/CNMF_E ) 
  - Convert_GUI_mat_2_UNET.ipynb file for converting annotations such that they can be loaded in the 3d U-Net ( https://github.com/VoytechG/neuron-finder )
