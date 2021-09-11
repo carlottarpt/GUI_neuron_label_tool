@@ -6,7 +6,7 @@ This Graphical User Interface Labeling Tool was devoloped to combine extracted n
 For a detailed documentation of the GUI Labeling Tool refer to the documentation provided in the file GUI_Documentation.pdf. 
 
 # Data
-As the data files are too big please contact me for receiving the following file structure: 
+As the data files are too big please contact carlotta.ruppert@gmail.com for receiving the following file structure: 
 
 For now the calcium imaging data needs to be provided both as an .h5 and .avi file. Test data is provided in the folder data and contains the following files:
 - preprocessedMovie.h5
