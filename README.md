@@ -30,7 +30,7 @@ For now the calcium imaging data needs to be provided both as an .h5 and .avi fi
  - Convert_GUI_mat_2_UNET.ipynb file for converting annotations such that they can be loaded in the 3d U-Net ( https://github.com/VoytechG/neuron-finder )
 
 # Evaluation
-Code used for evaluation of the improved GUI labels can be found under /evaluation/Metrics and synthetic data eval.ipynb 
+Code used for evaluation of the improved GUI labels can be found under /evaluation/Metrics and synthetic data eval.ipynb.
 For a more detailed explanation of the evaluation metrics refer to the file Documentation_Evaluation_Metrics.pdf.
 
 The tool was developed on Linux Mint 20.
