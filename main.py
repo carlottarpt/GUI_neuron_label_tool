@@ -91,6 +91,13 @@ class MplCanvas(FigureCanvasQTAgg):
         self.axes = fig.add_subplot(111)
         self.axes.set_title(title)
         super(MplCanvas, self).__init__(fig)
+        
+class FormWidget(QWidget):
+
+    def __init__(self, parent):
+        super(FormWidget, self).__init__(parent)
+        self.layout = QVBoxLayout(self)
+        self.setLayout(self.layout)
 
 class VideoPlayer(QtWidgets.QMainWindow):
     """
